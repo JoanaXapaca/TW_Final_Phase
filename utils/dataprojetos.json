@@ -1,0 +1,14 @@
+[
+    {"month":"Janeiro","income":5},
+    {"month":"Fevereiro","income":7},
+    {"month":"Março","income":6},
+    {"month":"Abril","income":9},
+    {"month":"Maio","income":10},
+    {"month":"Junho","income":8},
+    {"month":"Julho","income":4},
+    {"month":"Agosto","income":3},
+    {"month":"Setembro","income":11},
+    {"month":"Outubro","income":13},
+    {"month":"Novembro","income":14},
+    {"month":"Dezembro","income":9}
+]

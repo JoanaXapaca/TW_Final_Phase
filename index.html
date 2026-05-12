@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Académico Clínico dos Açores - CACA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- CABEÇALHO -->
+
+<header>
+    <div class="header-container">
+        <div class="logotipo-mobile">
+            <img src="imagens/logotipos/logotipo-mobile.png" alt="Logotipo CACA">
+        </div>
+        <div class="logotipo">
+            <img src="imagens/logotipos/logotipo.png" alt="Logotipo CACA">
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <ul id="menuList">
+            <li><a href="#Missao">Missão</a></li>
+            <li><a href="#Investigacao">Investigação</a></li>
+            <li><a href="#Parcerias">Parcerias</a></li>
+            <li><a href="#Conquistas">Conquistas</a></li>
+            <li><a href="#Eventos">Eventos</a></li>
+            <li><a href="#Newsletter">Newsletter</a></li>
+            <li><a href="#Noticias">Noticias</a></li>
+            <li><a href="#Contactos">Contactos</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- MISSÃO -->
+
+<div class="missao">
+    <div id="Missao"></div>
+    <h2>A nossa Missão</h2>
+    <p>Ser uma instituição académica com o intuito de apoiar a realização
+        de projetos locais, promovendo a inovação e rigor a fim de inspirar
+        boa fé e confiança no setor medicinal e farmacêutico.</p>
+</div>
+
+<!-- OBJETIVO -->
+
+<div class="objetivo">
+    <h2>Objetivo</h2>
+    <p>Apoiar os seus associados e servir como ponto de referência para estes,
+        com um foco em instituições clínicas e académicas locais e em alunos
+        com interesse nestas áreas.</p>
+</div>
+
+<!-- INVESTIGAÇÃO -->
+
+<div id="Investigacao"></div>
+<h1>Formação e Ensino</h1>
+
+<div class="investigacao-main">
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div class="investigacao-viewport">
+        <div class="investigacao-track" id="track">
+            <div class="investigacao-contentor">
+                <img src="imagens/investigacao/AI.png" alt="Investigacao AI">
+                <p>14 novembro 2025 - 12 dezembro 2025</p>
+                <h2>Inteligência Artificial em Saúde</h2>
+                <p class="saberTexto">Isto é uma descrição de exemplo, sendo esta uma notícia relacionada com um estudo feito pela UAC, nomeadamente a Faculdade de Ciências e Tecnologia.</p>
+                <button name="investigacaoBotao">Saber Mais</button>
+            </div>
+            <div class="investigacao-contentor">
+                <img src="imagens/investigacao/cirugia.png" alt="Cirurgia">
+                <p>14 novembro 2025 - 12 dezembro 2025</p>
+                <h2>Currículo de Trauma de Coluna</h2>
+                <p class="saberTexto">Isto é uma descrição de exemplo, sendo esta uma notícia relacionada com um estudo feito pela UAC, nomeadamente a Faculdade de Ciências e Tecnologia.</p>
+                <button name="investigacaoBotao">Saber Mais</button>
+            </div>
+            <div class="investigacao-contentor">
+                <img src="imagens/investigacao/saudeMental.png" alt="Saude Mental em Estudantes Universitarios">
+                <p>14 novembro 2025 - 12 dezembro 2025</p>
+                <h2>Saúde Mental em Estudantes Universitários</h2>
+                <p class="saberTexto">Isto é uma descrição de exemplo, sendo esta uma notícia relacionada com um estudo feito pela UAC, nomeadamente a Faculdade de Ciências e Tecnologia.</p>
+                <button name="investigacaoBotao">Saber Mais</button>
+            </div>
+            <div class="investigacao-contentor">
+                <img src="imagens/investigacao/primeirosSocorros.png" alt="Primeiros Socorros">
+                <p>14 novembro 2025 - 12 dezembro 2025</p>
+                <h2>Primeiros Socorros em Contexto Escolar</h2>
+                <p class="saberTexto">Isto é uma descrição de exemplo, sendo esta uma notícia relacionada com um estudo feito pela UAC, nomeadamente a Faculdade de Ciências e Tecnologia.</p>
+                <button name="investigacaoBotao">Saber Mais</button>
+            </div>
+            <div class="investigacao-contentor">
+                <img src="imagens/investigacao/reabilitacaoFisica.png" alt="Reabilitacao Fisica">
+                <p>14 novembro 2025 - 12 dezembro 2025</p>
+                <h2>Reabilitação Física Pós-Cirúrgica</h2>
+                <p class="saberTexto">Isto é uma descrição de exemplo, sendo esta uma notícia relacionada com um estudo feito pela UAC, nomeadamente a Faculdade de Ciências e Tecnologia.</p>
+                <button name="investigacaoBotao">Saber Mais</button>
+            </div>
+        </div>
+    </div>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<!-- PARCERIAS -->
+
+<div id="Parcerias"></div>
+<h1>Parcerias</h1>
+
+<div class="slideshow-container">
+    <div class="mySlides fade active" style="background-image: url('imagens/parcerias/uacBackground.png');">
+        <div class="partner-logo-container">
+            <img src="imagens/parcerias/uacLogo.png" alt="Logotipo UAC">
+        </div>
+        <div class="partner-text-container">
+            <div class="text">Universidade dos Açores - Formação contínua, investigação científica e apoio a estudantes.</div>
+        </div>
+    </div>
+    <div class="mySlides fade" style="background-image: url('imagens/parcerias/espiritoSantoPaisagem.png');">
+        <div class="partner-logo-container">
+            <img src="imagens/parcerias/espiritoSantoLogo.png" alt="Logotipo Hospital Divino Espirito Santo">
+        </div>
+        <div class="partner-text-container">
+            <div class="text">Hospital Divino Espirito Santo - Referência em cuidados hospitalares e proximidade com a comunidade.</div>
+        </div>
+    </div>
+    <div class="mySlides fade" style="background-image: url('imagens/parcerias/cufPaisagem.png');">
+        <div class="partner-logo-container">
+            <img src="imagens/parcerias/cufLogo.png" alt="Logotipo CUF">
+        </div>
+        <div class="partner-text-container">
+            <div class="text">Hospital CUF - Suporte clínico especializado e excelência hospitalar.</div>
+        </div>
+    </div>
+    <div class="mySlides fade" style="background-image: url('imagens/parcerias/associacaoDoentesPaisagem.png');">
+        <div class="partner-logo-container">
+            <img src="imagens/parcerias/associacaoDoentesLogo.png" alt="Logotipo Associacao de Doentes de Dor Cronica">
+        </div>
+        <div class="partner-text-container">
+            <div class="text">Associação de Doentes de Dor Crónica - Apoio, sensibilização e melhoria da qualidade de vida dos doentes.</div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="dots-container">
+    <span class="dot active" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<!-- CONQUISTAS -->
+
+<div id="Conquistas"><h1>Conquistas</h1></div>
+<div class="conquistas">
+    <p>Em 2026 houve um aumento geral de 30%</p>
+    <div class="conquistas-container">
+        <div class="myChart">
+            <div class="chart_types">
+                <button onclick="loadData('utils/datainvestigacao.json', 'Numero de investigadores mensal')">Investigadores</button>
+                <button onclick="loadData('utils/dataparceiros.json', 'Numero de parceiros mensais')">Parceiros</button>
+                <button onclick="loadData('utils/dataprojetos.json', 'Numero de projetos mensais')">Projetos</button>
+            </div>
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- GESTÃO DE EVENTOS -  PEI3 -->
+<h1>Gestão de Eventos</h1>
+<div class="eventos-section">
+    <div id="Eventos"></div>
+    <div class="eventos-container">
+        <div class="eventos-form-section">
+            <h3 id="form-evento-titulo">Adicionar Novo Evento</h3>
+            <form id="form-evento" class="form-evento">
+                <input type="text" id="evento-titulo" placeholder="Título do Evento*" required>
+                <textarea id="evento-descricao" placeholder="Descrição do Evento*" required></textarea>
+                <div class="form-row">
+                    <input type="date" id="evento-data" required>
+                    <input type="time" id="evento-hora" required>
+                </div>
+                <input type="text" id="evento-local" placeholder="Local do Evento*" required>
+                <div>
+                    <button type="submit">Salvar Evento</button>
+                    <button type="button" id="cancelar-edicao" style="display:none;">Cancelar Edição</button>
+                </div>
+            </form>
+            <div id="evento-mensagem" class="evento-mensagem"></div>
+        </div>
+
+        <div class="eventos-list-section">
+            <h3>Eventos Programados</h3>
+            <div id="previsao-tempo-resultado" class="previsao-tempo-resultado"></div>
+            <div class="eventos-tabela">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Descrição</th>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Local</th>
+                        <th>Ações</th>
+                    </tr>
+                    </thead>
+                    <tbody id="eventos-lista">
+                    <tr><td colspan="6" style="text-align: center;">Carregando eventos...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- MAPA INTERATIVO - PEI3 -->
+
+<div class="mapa-section">
+    <div class="mapa-container">
+        <h3>Mapa de Eventos CACA</h3>
+        <div class="mapa-pesquisa">
+            <input type="text" id="mapa-pesquisa-local" placeholder="Pesquisar localização (ex: Ponta Delgada, Angra do Heroísmo...)">
+            <button onclick="pesquisarLocalizacao()">Pesquisar</button>
+        </div>
+        <div class="mapa-botoes">
+            <button onclick="mostrarTodosEventosNoMapa()">Mostrar todos os eventos</button>
+        </div>
+        <div id="mapa-container"></div>
+        <div id="mapa-mensagem" class="mapa-mensagem"></div>
+        <small style="color: #666;">Mapa fornecido por OpenStreetMap - Dados geográficos abertos e gratuitos</small>
+    </div>
+</div>
+
+<!-- NEWSLETTER - PEI3 -->
+
+<div class="newsletter-section">
+    <div id="Newsletter"></div>
+    <div class="newsletter-container">
+        <h3>Subscreva a nossa Newsletter</h3>
+        <p>Receba as últimas novidades, eventos e investigações do CACA diretamente no seu email.</p>
+        <form id="form-newsletter" class="form-newsletter">
+            <input type="text" id="newsletter-nome" placeholder="Seu nome completo*" required>
+            <input type="email" id="newsletter-email" placeholder="Seu email*" required>
+            <button type="submit">Subscrever Newsletter</button>
+        </form>
+        <div id="newsletter-mensagem" class="newsletter-mensagem"></div>
+    </div>
+</div>
+<!-- RSS FEED - NOVO PEI3 -->
+
+<div class="noticias-section">
+    <div id="Noticias"></div>
+    <div class="noticias-header">
+        <h3>Notícias de Saúde & CACA</h3>
+        <button id="atualizar-noticias">Atualizar Notícias</button>
+    </div>
+    <div id="noticias-loading" style="display: none; text-align: center;">
+        <p>📡 A carregar as últimas notícias...</p>
+    </div>
+    <div id="noticias-erro" style="display: none;"></div>
+    <div id="noticias-container" class="noticias-container"></div>
+    <small style="display: block; text-align: center; margin-top: 1rem; color: #666;">
+        Fontes: RSS feeds públicos da área da saúde
+    </small>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+    <div id="Contactos"></div>
+    <div class="footer-container">
+        <div class="contactos">
+            <h1>Contactos<br></h1>
+            <p>Email: 2acaca@uac.pt</p>
+            <p>Telefone: 250 620 910</p>
+            <p>Morada: Rua das Hortênsias Azuis 3, 9520-509 Lagoa</p>
+        </div>
+        <div class="email">
+            <h1>Envie Um Email<br> (*) obrigatório</h1>
+            <div class="email-conteudo">
+                <div class="email-campos">
+                    <input id="nome" type="text" placeholder="Nome*">
+                    <input id="email" type="email" placeholder="Email*">
+                    <div class="select-box">
+                        <div class="selected-option">
+                            <div>
+                                <span class="iconify" data-icon="flag:gb-4x3"></span>
+                                <strong>+44</strong>
+                            </div>
+                            <input type="tel" name="tel" placeholder="Phone Number*">
+                        </div>
+                        <div class="options">
+                            <input type="text" name="search-box" placeholder="Search Country Name">
+
+                            <ol>
+                                <li class="option">
+                                    <div>
+                                        <span class="iconify" data-icon="flag:gb-4x3"></span>
+                                        <span class="country-name">United Kingdom</span>
+                                    </div>
+                                    <strong>+44</strong>
+                                </li>
+                                <li class="option">
+                                    <div>
+                                        <span class="iconify" data-icon="flag:us-4x3"></span>
+                                        <span class="country-name">United States</span>
+                                    </div>
+                                    <strong>+1</strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <button id="enviar" onclick="sendEmail('nome','email','mensagem','.envio-erro','.envio-sucesso')">Enviar Mensagem</button>
+                </div>
+                <div class="mensagem-container">
+                    <select class="quick-message" id="quickMessage" onchange="selectQuickMessage('mensagem','quickMessage')">
+                        <option value="">Quick replies</option>
+                        <option value="Gostaria de Saber se o projeto [proejeto] está disponível">Projetos de Investigação</option>
+                        <option value="Gostaria de saber quais formações são oferecidas pelo centro">Formação e Ensino</option>
+                        <option value="Estou interessado em realizar uma colobaroção com o CACA">Parcerias e Protocolos</option>
+                        <option value="Gostaria de informar-me em como posso realizar os meus estudos no CACA">Apoio ao Estudante</option>
+                    </select>
+                    <textarea id="mensagem" maxlength="450" placeholder="Escreva a sua mensagem aqui... *"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="direitos">
+    <p>© 2026 Centro Académico Clinico dos Açores. Todos os direitos reservados.<br>
+        Financiado pela Universidade dos Açores<br>
+        https://fct.uac.pt/</p>
+</div>
+
+<div class="envio-erro">Erro ao enviar mensagem</div>
+<div class="envio-sucesso">Mensagem enviada com sucesso</div>
+
+<button class="scroll-to-top" ><i class="fa fa-arrow-up"></i></button>
+
+<!-- Bibliotecas externas -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+
+<!-- Scripts locais: Aniamacoes -->
+<script src="javascript/animacoes/chart.js"></script>
+<script src="javascript/animacoes/Gsap.js"></script>
+<script src="javascript/animacoes/logo3D.js"></script>
+
+<!-- Scripts locais: Eventos -->
+<script src="javascript/eventos/scrollButton.js"></script>
+<script src="javascript/eventos/investigacaoCarrosel.js"></script>
+<script src="javascript/eventos/parceriasCarrosel.js"></script>
+<script src="javascript/eventos/saberMaisBtn.js"></script>
+
+<!-- Scripts locais: Formulario handler -->
+<script src="https://cdn.jsdelivr.net/npm/libphonenumber-js/bundle/libphonenumber-min.js"></script>
+<script src="javascript/formulario/form-handler.js"></script>
+<script src="javascript/formulario/paises.js"></script>
+<script src="javascript/formulario/telefone.js"></script>
+
+<!-- IndexedDB, APIs, Gestão de Eventos -->
+
+<!-- Leaflet.js para mapas OpenStreetMap -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- IndexedDB Manager (base de dados local) -->
+<script src="javascript/indexedDB.js"></script>
+
+<!-- APIs Externas -->
+<script src="javascript/apis/weatherAPI.js"></script>
+<script src="javascript/apis/mapAPI.js"></script>
+<script src="javascript/apis/newsAPI.js"></script>
+
+<!-- Gestão de Eventos e Newsletter -->
+<script src="javascript/eventos/eventManager.js"></script>
+<script src="javascript/formulario/newsletter.js"></script>
+</body>
+</html>
